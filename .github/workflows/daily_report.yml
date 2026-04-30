@@ -1,0 +1,53 @@
+name: Daily Analytics Report
+
+on:
+  schedule:
+    # 08:00 UTC, 30 min after the auto-applier in career-scan
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    name: Build daily report
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build report
+        env:
+          GITHUB_TOKEN: ${{ secrets.CAREER_SCAN_READ_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python -m analytics.main
+
+      - name: Commit and push reports
+        run: |
+          git config user.name  "analytics-scan-bot"
+          git config user.email "analytics-scan-bot@users.noreply.github.com"
+
+          git add reports/
+
+          if git diff --cached --quiet; then
+            echo "no report changes to commit"
+          else
+            DATE=$(date -u +"%Y-%m-%d")
+            git commit -m "chore: daily analytics report - $DATE [skip ci]"
+            git push origin HEAD
+            echo "pushed report for $DATE"
+          fi
