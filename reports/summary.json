@@ -1,12 +1,12 @@
 {
   "applications": {
     "by_state": {
-      "error": 15
+      "error": 30
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        15
+        30
       ]
     ],
     "median_submit_to_response_hours": null,
@@ -14,18 +14,18 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 15
+    "total": 30
   },
-  "generated_at": "2026-05-01T09:52:47+00:00",
+  "generated_at": "2026-05-02T09:14:16+00:00",
   "scrape": {
-    "added_24h": 47,
-    "added_7d": 94,
+    "added_24h": 5,
+    "added_7d": 99,
     "by_source": {
-      "Arbeitnow": 22,
-      "Greenhouse": 51,
+      "Arbeitnow": 23,
+      "Greenhouse": 52,
       "RemoteOK": 3,
-      "Remotive": 7,
-      "WeWorkRemotely": 11
+      "Remotive": 8,
+      "WeWorkRemotely": 13
     },
     "top_companies": [
       [
@@ -37,16 +37,20 @@
         10
       ],
       [
-        "dexter health",
-        4
+        "Reddit",
+        5
       ],
       [
-        "Reddit",
+        "dexter health",
         4
       ],
       [
         "DatAds",
         3
+      ],
+      [
+        "Lemon.io",
+        2
       ],
       [
         "A.Team",
@@ -61,6 +65,10 @@
         2
       ],
       [
+        "EquiMatch GmbH",
+        1
+      ],
+      [
         "Hackstack GmbH",
         1
       ],
@@ -73,22 +81,14 @@
         1
       ],
       [
-        "Lemon.io",
-        1
-      ],
-      [
         "Mitre Media",
         1
       ],
       [
         "Sanctuary Computer",
         1
-      ],
-      [
-        "Chooose",
-        1
       ]
     ],
-    "total": 94
+    "total": 99
   }
 }
