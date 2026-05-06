@@ -1,12 +1,12 @@
 {
   "applications": {
     "by_state": {
-      "error": 75
+      "error": 90
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        75
+        90
       ]
     ],
     "median_submit_to_response_hours": null,
@@ -14,19 +14,19 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 75
+    "total": 90
   },
-  "generated_at": "2026-05-05T10:08:28+00:00",
+  "generated_at": "2026-05-06T10:24:36+00:00",
   "scrape": {
-    "added_24h": 17,
-    "added_7d": 119,
+    "added_24h": 28,
+    "added_7d": 147,
     "by_source": {
       "Arbeitnow": 28,
-      "Greenhouse": 66,
-      "RemoteOK": 3,
+      "Greenhouse": 89,
+      "RemoteOK": 5,
       "Remotive": 8,
-      "WeWorkRemotely": 13,
-      "WorkingNomads": 1
+      "WeWorkRemotely": 15,
+      "WorkingNomads": 2
     },
     "top_companies": [
       [
@@ -35,7 +35,7 @@
       ],
       [
         "Reddit",
-        11
+        31
       ],
       [
         "Twilio",
@@ -52,6 +52,14 @@
       [
         "DatAds",
         3
+      ],
+      [
+        "Dropbox",
+        2
+      ],
+      [
+        "Datadog",
+        2
       ],
       [
         "Immovara GmbH",
@@ -74,22 +82,14 @@
         2
       ],
       [
-        "laria.ai",
+        "Bold Business",
         1
       ],
       [
-        "Datavent",
-        1
-      ],
-      [
-        "Pont Connects e.K.",
-        1
-      ],
-      [
-        "EquiMatch GmbH",
+        "Higharc",
         1
       ]
     ],
-    "total": 119
+    "total": 147
   }
 }
