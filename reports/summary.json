@@ -1,12 +1,12 @@
 {
   "applications": {
     "by_state": {
-      "error": 90
+      "error": 105
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        90
+        105
       ]
     ],
     "median_submit_to_response_hours": null,
@@ -14,16 +14,16 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 90
+    "total": 105
   },
-  "generated_at": "2026-05-06T10:24:36+00:00",
+  "generated_at": "2026-05-07T10:30:55+00:00",
   "scrape": {
-    "added_24h": 28,
-    "added_7d": 147,
+    "added_24h": 30,
+    "added_7d": 130,
     "by_source": {
-      "Arbeitnow": 28,
-      "Greenhouse": 89,
-      "RemoteOK": 5,
+      "Arbeitnow": 32,
+      "Greenhouse": 112,
+      "RemoteOK": 8,
       "Remotive": 8,
       "WeWorkRemotely": 15,
       "WorkingNomads": 2
@@ -36,6 +36,10 @@
       [
         "Reddit",
         31
+      ],
+      [
+        "Dropbox",
+        25
       ],
       [
         "Twilio",
@@ -54,7 +58,7 @@
         3
       ],
       [
-        "Dropbox",
+        "DataSmart Point GmbH",
         2
       ],
       [
@@ -82,14 +86,10 @@
         2
       ],
       [
-        "Bold Business",
-        1
-      ],
-      [
-        "Higharc",
+        "Rockstardevelopers GmbH",
         1
       ]
     ],
-    "total": 147
+    "total": 177
   }
 }
