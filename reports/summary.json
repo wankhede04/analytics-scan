@@ -1,12 +1,20 @@
 {
   "applications": {
     "by_state": {
-      "error": 150
+      "error": 165
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        150
+        163
+      ],
+      [
+        "404 Client Error: Not Found for url: https://remotive.com/remote-jobs/software-development/senior-frontend-developer-2088707",
+        1
+      ],
+      [
+        "404 Client Error: Not Found for url: https://remotive.com/remote-jobs/software-development/fullstack-developer-us-et-2088706",
+        1
       ]
     ],
     "median_submit_to_response_hours": null,
@@ -14,14 +22,14 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 150
+    "total": 165
   },
-  "generated_at": "2026-05-10T09:43:30+00:00",
+  "generated_at": "2026-05-11T11:31:29+00:00",
   "scrape": {
     "added_24h": 2,
     "added_7d": 94,
     "by_source": {
-      "Arbeitnow": 42,
+      "Arbeitnow": 44,
       "Greenhouse": 113,
       "RemoteOK": 12,
       "Remotive": 8,
@@ -90,6 +98,6 @@
         2
       ]
     ],
-    "total": 194
+    "total": 196
   }
 }
