@@ -1,15 +1,19 @@
 {
   "applications": {
     "by_state": {
-      "error": 165
+      "error": 180
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        163
+        177
       ],
       [
         "404 Client Error: Not Found for url: https://remotive.com/remote-jobs/software-development/senior-frontend-developer-2088707",
+        1
+      ],
+      [
+        "410 Client Error: Gone for url: https://www.arbeitnow.com/jobs/companies/immovara-gmbh/laravel-developer-ai-first-proptech-korntal-munchinge",
         1
       ],
       [
@@ -22,16 +26,16 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 165
+    "total": 180
   },
-  "generated_at": "2026-05-11T11:31:29+00:00",
+  "generated_at": "2026-05-12T10:38:35+00:00",
   "scrape": {
     "added_24h": 2,
-    "added_7d": 94,
+    "added_7d": 79,
     "by_source": {
-      "Arbeitnow": 44,
+      "Arbeitnow": 45,
       "Greenhouse": 113,
-      "RemoteOK": 12,
+      "RemoteOK": 13,
       "Remotive": 8,
       "WeWorkRemotely": 15,
       "WorkingNomads": 4
@@ -98,6 +102,6 @@
         2
       ]
     ],
-    "total": 196
+    "total": 198
   }
 }
