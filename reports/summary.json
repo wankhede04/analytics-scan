@@ -1,12 +1,12 @@
 {
   "applications": {
     "by_state": {
-      "error": 180
+      "error": 195
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        177
+        191
       ],
       [
         "404 Client Error: Not Found for url: https://remotive.com/remote-jobs/software-development/senior-frontend-developer-2088707",
@@ -14,6 +14,10 @@
       ],
       [
         "410 Client Error: Gone for url: https://www.arbeitnow.com/jobs/companies/immovara-gmbh/laravel-developer-ai-first-proptech-korntal-munchinge",
+        1
+      ],
+      [
+        "410 Client Error: Gone for url: https://www.arbeitnow.com/jobs/companies/datads/full-stack-software-engineer-backend-frontend-bootstrapped-s",
         1
       ],
       [
@@ -26,15 +30,15 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 180
+    "total": 195
   },
-  "generated_at": "2026-05-12T10:38:35+00:00",
+  "generated_at": "2026-05-13T10:36:42+00:00",
   "scrape": {
     "added_24h": 2,
-    "added_7d": 79,
+    "added_7d": 53,
     "by_source": {
-      "Arbeitnow": 45,
-      "Greenhouse": 113,
+      "Arbeitnow": 46,
+      "Greenhouse": 114,
       "RemoteOK": 13,
       "Remotive": 8,
       "WeWorkRemotely": 15,
@@ -47,7 +51,7 @@
       ],
       [
         "Reddit",
-        32
+        33
       ],
       [
         "Dropbox",
@@ -102,6 +106,6 @@
         2
       ]
     ],
-    "total": 198
+    "total": 200
   }
 }
