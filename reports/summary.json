@@ -36,10 +36,10 @@
     "submitted_7d": 0,
     "total": 220
   },
-  "generated_at": "2026-05-17T09:53:42+00:00",
+  "generated_at": "2026-05-18T11:50:00+00:00",
   "scrape": {
-    "added_24h": 3,
-    "added_7d": 26,
+    "added_24h": 0,
+    "added_7d": 24,
     "by_source": {
       "Arbeitnow": 50,
       "Greenhouse": 119,
