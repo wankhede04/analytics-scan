@@ -1,12 +1,12 @@
 {
   "applications": {
     "by_state": {
-      "error": 228
+      "error": 235
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        223
+        230
       ],
       [
         "404 Client Error: Not Found for url: https://remotive.com/remote-jobs/software-development/senior-frontend-developer-2088707",
@@ -34,24 +34,24 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 228
+    "total": 235
   },
-  "generated_at": "2026-05-20T11:13:07+00:00",
+  "generated_at": "2026-05-21T11:32:46+00:00",
   "scrape": {
-    "added_24h": 4,
-    "added_7d": 28,
+    "added_24h": 7,
+    "added_7d": 29,
     "by_source": {
-      "Arbeitnow": 54,
-      "Greenhouse": 120,
+      "Arbeitnow": 56,
+      "Greenhouse": 122,
       "RemoteOK": 20,
-      "Remotive": 9,
-      "WeWorkRemotely": 19,
-      "WorkingNomads": 6
+      "Remotive": 10,
+      "WeWorkRemotely": 20,
+      "WorkingNomads": 7
     },
     "top_companies": [
       [
         "Reddit",
-        37
+        38
       ],
       [
         "GitLab",
@@ -67,7 +67,7 @@
       ],
       [
         "Stripe",
-        8
+        9
       ],
       [
         "dexter health",
@@ -80,6 +80,10 @@
       [
         "DatAds",
         4
+      ],
+      [
+        "Immovara GmbH",
+        3
       ],
       [
         "FNTIO",
@@ -102,14 +106,10 @@
         2
       ],
       [
-        "Immovara GmbH",
-        2
-      ],
-      [
         "Lemon.io",
         2
       ]
     ],
-    "total": 228
+    "total": 235
   }
 }
