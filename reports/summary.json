@@ -1,12 +1,12 @@
 {
   "applications": {
     "by_state": {
-      "error": 245
+      "error": 247
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        240
+        242
       ],
       [
         "404 Client Error: Not Found for url: https://remotive.com/remote-jobs/software-development/senior-frontend-developer-2088707",
@@ -34,18 +34,18 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 245
+    "total": 247
   },
-  "generated_at": "2026-05-23T10:00:06+00:00",
+  "generated_at": "2026-05-24T10:01:04+00:00",
   "scrape": {
-    "added_24h": 6,
-    "added_7d": 28,
+    "added_24h": 2,
+    "added_7d": 27,
     "by_source": {
       "Arbeitnow": 56,
       "Greenhouse": 126,
-      "RemoteOK": 21,
+      "RemoteOK": 22,
       "Remotive": 11,
-      "WeWorkRemotely": 23,
+      "WeWorkRemotely": 24,
       "WorkingNomads": 8
     },
     "top_companies": [
@@ -110,6 +110,6 @@
         2
       ]
     ],
-    "total": 245
+    "total": 247
   }
 }
