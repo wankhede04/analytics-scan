@@ -1,12 +1,12 @@
 {
   "applications": {
     "by_state": {
-      "error": 248
+      "error": 256
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        243
+        251
       ],
       [
         "404 Client Error: Not Found for url: https://remotive.com/remote-jobs/software-development/senior-frontend-developer-2088707",
@@ -34,17 +34,17 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 248
+    "total": 256
   },
-  "generated_at": "2026-05-25T11:57:30+00:00",
+  "generated_at": "2026-05-28T11:44:27+00:00",
   "scrape": {
-    "added_24h": 1,
-    "added_7d": 28,
+    "added_24h": 5,
+    "added_7d": 21,
     "by_source": {
-      "Arbeitnow": 56,
-      "Greenhouse": 126,
-      "RemoteOK": 23,
-      "Remotive": 11,
+      "Arbeitnow": 57,
+      "Greenhouse": 128,
+      "RemoteOK": 25,
+      "Remotive": 14,
       "WeWorkRemotely": 24,
       "WorkingNomads": 8
     },
@@ -63,7 +63,7 @@
       ],
       [
         "Twilio",
-        12
+        13
       ],
       [
         "Stripe",
@@ -82,8 +82,20 @@
         4
       ],
       [
+        "LawnStarter",
+        3
+      ],
+      [
+        "Lemon.io",
+        3
+      ],
+      [
         "Immovara GmbH",
         3
+      ],
+      [
+        "EverAI",
+        2
       ],
       [
         "FNTIO",
@@ -96,20 +108,8 @@
       [
         "Sidestream",
         2
-      ],
-      [
-        "DataSmart Point GmbH",
-        2
-      ],
-      [
-        "Datadog",
-        2
-      ],
-      [
-        "Lemon.io",
-        2
       ]
     ],
-    "total": 248
+    "total": 256
   }
 }
