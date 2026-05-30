@@ -1,12 +1,12 @@
 {
   "applications": {
     "by_state": {
-      "error": 264
+      "error": 273
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        259
+        268
       ],
       [
         "404 Client Error: Not Found for url: https://remotive.com/remote-jobs/software-development/senior-frontend-developer-2088707",
@@ -34,16 +34,16 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 264
+    "total": 273
   },
-  "generated_at": "2026-05-29T11:35:10+00:00",
+  "generated_at": "2026-05-30T10:06:11+00:00",
   "scrape": {
-    "added_24h": 8,
-    "added_7d": 25,
+    "added_24h": 9,
+    "added_7d": 28,
     "by_source": {
-      "Arbeitnow": 60,
-      "Greenhouse": 129,
-      "RemoteOK": 25,
+      "Arbeitnow": 64,
+      "Greenhouse": 130,
+      "RemoteOK": 29,
       "Remotive": 17,
       "WeWorkRemotely": 25,
       "WorkingNomads": 8
@@ -55,7 +55,7 @@
       ],
       [
         "GitLab",
-        36
+        37
       ],
       [
         "Dropbox",
@@ -70,6 +70,10 @@
         9
       ],
       [
+        "TecFox GmbH",
+        6
+      ],
+      [
         "LawnStarter",
         6
       ],
@@ -78,11 +82,11 @@
         5
       ],
       [
-        "Sidestream",
+        "FNTIO",
         4
       ],
       [
-        "TecFox GmbH",
+        "Sidestream",
         4
       ],
       [
@@ -98,18 +102,14 @@
         3
       ],
       [
+        "Crossing Hurdles",
+        2
+      ],
+      [
         "EverAI",
-        2
-      ],
-      [
-        "FNTIO",
-        2
-      ],
-      [
-        "StellDirVor GmbH",
         2
       ]
     ],
-    "total": 264
+    "total": 273
   }
 }
