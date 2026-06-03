@@ -1,12 +1,12 @@
 {
   "applications": {
     "by_state": {
-      "error": 291
+      "error": 306
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        272
+        287
       ],
       [
         "empty JD extracted from https://www.workingnomads.com/job/go/1641404/",
@@ -50,28 +50,28 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 291
+    "total": 306
   },
-  "generated_at": "2026-06-02T12:11:41+00:00",
+  "generated_at": "2026-06-03T12:47:00+00:00",
   "scrape": {
-    "added_24h": 19,
-    "added_7d": 47,
+    "added_24h": 14,
+    "added_7d": 58,
     "by_source": {
-      "Arbeitnow": 67,
-      "Greenhouse": 134,
-      "RemoteOK": 30,
+      "Arbeitnow": 74,
+      "Greenhouse": 136,
+      "RemoteOK": 31,
       "Remotive": 17,
-      "WeWorkRemotely": 25,
+      "WeWorkRemotely": 29,
       "WorkingNomads": 22
     },
     "top_companies": [
       [
         "Reddit",
-        46
+        47
       ],
       [
         "GitLab",
-        37
+        38
       ],
       [
         "Dropbox",
@@ -92,6 +92,10 @@
       [
         "LawnStarter",
         6
+      ],
+      [
+        "Rockstardevelopers GmbH",
+        5
       ],
       [
         "dexter health",
@@ -120,12 +124,8 @@
       [
         "Crossing Hurdles",
         2
-      ],
-      [
-        "EverAI",
-        2
       ]
     ],
-    "total": 295
+    "total": 309
   }
 }
