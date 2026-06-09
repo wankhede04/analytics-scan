@@ -1,12 +1,12 @@
 {
   "applications": {
     "by_state": {
-      "error": 324
+      "error": 329
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        305
+        310
       ],
       [
         "empty JD extracted from https://www.workingnomads.com/job/go/1641404/",
@@ -50,19 +50,19 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 324
+    "total": 329
   },
-  "generated_at": "2026-06-08T12:39:07+00:00",
+  "generated_at": "2026-06-09T11:23:25+00:00",
   "scrape": {
-    "added_24h": 3,
-    "added_7d": 48,
+    "added_24h": 5,
+    "added_7d": 34,
     "by_source": {
-      "Arbeitnow": 78,
+      "Arbeitnow": 80,
       "Greenhouse": 139,
       "RemoteOK": 34,
       "Remotive": 17,
-      "WeWorkRemotely": 34,
-      "WorkingNomads": 22
+      "WeWorkRemotely": 35,
+      "WorkingNomads": 24
     },
     "top_companies": [
       [
@@ -122,10 +122,10 @@
         3
       ],
       [
-        "Crossing Hurdles",
+        "ZEP GmbH",
         2
       ]
     ],
-    "total": 324
+    "total": 329
   }
 }
