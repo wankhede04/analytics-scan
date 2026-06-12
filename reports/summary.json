@@ -1,12 +1,12 @@
 {
   "applications": {
     "by_state": {
-      "error": 340
+      "error": 350
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        321
+        331
       ],
       [
         "empty JD extracted from https://www.workingnomads.com/job/go/1641404/",
@@ -50,24 +50,24 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 340
+    "total": 350
   },
-  "generated_at": "2026-06-11T12:14:42+00:00",
+  "generated_at": "2026-06-12T11:49:07+00:00",
   "scrape": {
-    "added_24h": 3,
-    "added_7d": 26,
+    "added_24h": 10,
+    "added_7d": 33,
     "by_source": {
-      "Arbeitnow": 82,
-      "Greenhouse": 139,
-      "RemoteOK": 38,
+      "Arbeitnow": 84,
+      "Greenhouse": 140,
+      "RemoteOK": 44,
       "Remotive": 17,
-      "WeWorkRemotely": 39,
+      "WeWorkRemotely": 40,
       "WorkingNomads": 25
     },
     "top_companies": [
       [
         "Reddit",
-        49
+        50
       ],
       [
         "GitLab",
@@ -87,7 +87,7 @@
       ],
       [
         "TecFox GmbH",
-        6
+        7
       ],
       [
         "LawnStarter",
@@ -122,10 +122,10 @@
         3
       ],
       [
-        "ZEP GmbH",
+        "CuraSenseAI",
         2
       ]
     ],
-    "total": 340
+    "total": 350
   }
 }
