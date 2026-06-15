@@ -1,12 +1,12 @@
 {
   "applications": {
     "by_state": {
-      "error": 354
+      "error": 358
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        335
+        339
       ],
       [
         "empty JD extracted from https://www.workingnomads.com/job/go/1641404/",
@@ -50,15 +50,15 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 354
+    "total": 358
   },
-  "generated_at": "2026-06-14T10:52:30+00:00",
+  "generated_at": "2026-06-15T14:33:20+00:00",
   "scrape": {
-    "added_24h": 1,
-    "added_7d": 33,
+    "added_24h": 4,
+    "added_7d": 34,
     "by_source": {
-      "Arbeitnow": 85,
-      "Greenhouse": 140,
+      "Arbeitnow": 88,
+      "Greenhouse": 141,
       "RemoteOK": 44,
       "Remotive": 18,
       "WeWorkRemotely": 41,
@@ -67,7 +67,7 @@
     "top_companies": [
       [
         "Reddit",
-        50
+        51
       ],
       [
         "GitLab",
@@ -86,6 +86,10 @@
         9
       ],
       [
+        "dexter health",
+        8
+      ],
+      [
         "TecFox GmbH",
         8
       ],
@@ -95,10 +99,6 @@
       ],
       [
         "Rockstardevelopers GmbH",
-        5
-      ],
-      [
-        "dexter health",
         5
       ],
       [
@@ -126,6 +126,6 @@
         2
       ]
     ],
-    "total": 354
+    "total": 358
   }
 }
