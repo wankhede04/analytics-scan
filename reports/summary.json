@@ -1,12 +1,12 @@
 {
   "applications": {
     "by_state": {
-      "error": 358
+      "error": 362
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        339
+        343
       ],
       [
         "empty JD extracted from https://www.workingnomads.com/job/go/1641404/",
@@ -50,16 +50,16 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 358
+    "total": 362
   },
-  "generated_at": "2026-06-15T14:33:20+00:00",
+  "generated_at": "2026-06-16T12:59:58+00:00",
   "scrape": {
     "added_24h": 4,
-    "added_7d": 34,
+    "added_7d": 33,
     "by_source": {
-      "Arbeitnow": 88,
-      "Greenhouse": 141,
-      "RemoteOK": 44,
+      "Arbeitnow": 90,
+      "Greenhouse": 142,
+      "RemoteOK": 45,
       "Remotive": 18,
       "WeWorkRemotely": 41,
       "WorkingNomads": 26
@@ -67,7 +67,7 @@
     "top_companies": [
       [
         "Reddit",
-        51
+        52
       ],
       [
         "GitLab",
@@ -126,6 +126,6 @@
         2
       ]
     ],
-    "total": 358
+    "total": 362
   }
 }
