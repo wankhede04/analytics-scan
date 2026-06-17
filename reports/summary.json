@@ -1,12 +1,12 @@
 {
   "applications": {
     "by_state": {
-      "error": 362
+      "error": 372
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        343
+        353
       ],
       [
         "empty JD extracted from https://www.workingnomads.com/job/go/1641404/",
@@ -50,18 +50,18 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 362
+    "total": 372
   },
-  "generated_at": "2026-06-16T12:59:58+00:00",
+  "generated_at": "2026-06-17T12:22:10+00:00",
   "scrape": {
-    "added_24h": 4,
-    "added_7d": 33,
+    "added_24h": 10,
+    "added_7d": 35,
     "by_source": {
-      "Arbeitnow": 90,
+      "Arbeitnow": 93,
       "Greenhouse": 142,
-      "RemoteOK": 45,
-      "Remotive": 18,
-      "WeWorkRemotely": 41,
+      "RemoteOK": 49,
+      "Remotive": 19,
+      "WeWorkRemotely": 43,
       "WorkingNomads": 26
     },
     "top_companies": [
@@ -122,10 +122,10 @@
         3
       ],
       [
-        "CuraSenseAI",
+        "NFON",
         2
       ]
     ],
-    "total": 362
+    "total": 372
   }
 }
