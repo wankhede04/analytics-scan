@@ -1,12 +1,12 @@
 {
   "applications": {
     "by_state": {
-      "error": 379
+      "error": 387
     },
     "errors": [
       [
         "ANTHROPIC_API_KEY is not set. Configure it as a GitHub Actions secret or export it in your local env.",
-        359
+        367
       ],
       [
         "empty JD extracted from https://www.workingnomads.com/job/go/1641404/",
@@ -50,16 +50,16 @@
     "response_rate": null,
     "submitted_24h": 0,
     "submitted_7d": 0,
-    "total": 379
+    "total": 387
   },
-  "generated_at": "2026-06-18T11:54:24+00:00",
+  "generated_at": "2026-06-19T12:14:00+00:00",
   "scrape": {
-    "added_24h": 7,
-    "added_7d": 39,
+    "added_24h": 8,
+    "added_7d": 37,
     "by_source": {
-      "Arbeitnow": 94,
-      "Greenhouse": 144,
-      "RemoteOK": 50,
+      "Arbeitnow": 99,
+      "Greenhouse": 146,
+      "RemoteOK": 51,
       "Remotive": 19,
       "WeWorkRemotely": 46,
       "WorkingNomads": 26
@@ -79,7 +79,7 @@
       ],
       [
         "Twilio",
-        13
+        15
       ],
       [
         "Stripe",
@@ -92,6 +92,10 @@
       [
         "TecFox GmbH",
         8
+      ],
+      [
+        "Sidestream",
+        6
       ],
       [
         "LawnStarter",
@@ -110,10 +114,6 @@
         4
       ],
       [
-        "Sidestream",
-        4
-      ],
-      [
         "DatAds",
         4
       ],
@@ -126,6 +126,6 @@
         2
       ]
     ],
-    "total": 379
+    "total": 387
   }
 }
